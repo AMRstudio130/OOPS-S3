@@ -1,1 +1,25 @@
-
+Import java.util.*;
+Class palindrome
+{
+Public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+String str,rev=””;
+System.out.println(“enter a string”);
+Str=sc.nextLine();
+Int length=str.length();
+For(int i=length-1;i>=0;i--)
+{
+Rev=rev+str.charAt(i);
+}
+If(str.equals(rev))
+{
+System.out.println(str+” is palindrome”);
+}
+Else
+{
+System.out.println(str+”is not palindrome”+str);
+}
+Sc.close();
+}
+}
